@@ -45,4 +45,4 @@ The code implements the Bernstein-Vazirani algorithm by creating a quantum circu
 
 Qiskit: https://qiskit.org/
 
-Bernstein-Vazirani Algorithm: https://qiskit.org/textbook/ch-algorithms/bernstein-vazirani.html"
+Bernstein-Vazirani Algorithm: https://www.youtube.com/watch?v=sqJIpHYl7oo
