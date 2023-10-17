@@ -37,9 +37,11 @@ Let's walk through the code for the Bernstein-Vazirani algorithm step by step. T
 This code efficiently reveals the hidden binary string using quantum superposition and the principles of quantum computing. It demonstrates the power of quantum algorithms in solving specific problems with just one query to an oracle function.
 
 The code implements the Bernstein-Vazirani algorithm by creating a quantum circuit that efficiently reveals the hidden binary string '101101'.
+
 ------------------------
 
 **Reference**:
+-----------------------
 
 Qiskit: https://qiskit.org/
 
