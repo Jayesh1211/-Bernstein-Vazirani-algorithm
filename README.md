@@ -1,4 +1,3 @@
-# 1111
 "The **Bernstein-Vazirani algorithm** is a remarkable quantum algorithm that I find fascinating. It enables us to efficiently determine a hidden binary string using just one query to an oracle function. This is a significant advantage over classical algorithms, which often require multiple queries to uncover the hidden string.
 
 In practice, I would implement the algorithm as follows:
