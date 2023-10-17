@@ -1,4 +1,4 @@
-"The **Bernstein-Vazirani algorithm** is a remarkable quantum algorithm that I find fascinating. It enables us to efficiently determine a hidden binary string using just one query to an oracle function. This is a significant advantage over classical algorithms, which often require multiple queries to uncover the hidden string.
+The **Bernstein-Vazirani algorithm** is a remarkable quantum algorithm that I find fascinating. It enables us to efficiently determine a hidden binary string using just one query to an oracle function. This is a significant advantage over classical algorithms, which often require multiple queries to uncover the hidden string.
 
 In practice, I would implement the algorithm as follows:
 
@@ -10,11 +10,11 @@ In practice, I would implement the algorithm as follows:
 
 4. **Measurement:** Finally, I measure the qubits in the quantum circuit. The outcome of this measurement will be the hidden binary string that we sought to reveal.
 
-The efficiency of the Bernstein-Vazirani algorithm lies in its ability to explore all possible values of the hidden string in a single step, thanks to quantum superposition. This makes it significantly faster than classical algorithms, and it has potential applications in cryptography and database search, among other fields."
+The efficiency of the Bernstein-Vazirani algorithm lies in its ability to explore all possible values of the hidden string in a single step, thanks to quantum superposition. This makes it significantly faster than classical algorithms, and it has potential applications in cryptography and database search, among other fields.
 
 -------------------------------
 
-"Let's walk through the code for the Bernstein-Vazirani algorithm step by step. This algorithm is used to efficiently determine a hidden binary string, and the code is implemented using Qiskit, a quantum computing framework.
+Let's walk through the code for the Bernstein-Vazirani algorithm step by step. This algorithm is used to efficiently determine a hidden binary string, and the code is implemented using Qiskit, a quantum computing framework.
 
 1. **Initialization:** I start by defining the hidden binary string as '101101'. This is the string we want to reveal using the algorithm. I also create a quantum circuit with a certain number of qubits, depending on the length of our hidden string. In this case, I have six qubits for a six-character binary string.
 
@@ -34,6 +34,6 @@ The efficiency of the Bernstein-Vazirani algorithm lies in its ability to explor
 
 9. **Simulation and Result:** To see the result of our quantum circuit, I use Qiskit's Aer simulator. After running the circuit and simulating it, I get the counts of measurement outcomes and print them. The counts should represent the hidden binary string.
 
-This code efficiently reveals the hidden binary string using quantum superposition and the principles of quantum computing. It demonstrates the power of quantum algorithms in solving specific problems with just one query to an oracle function."
+This code efficiently reveals the hidden binary string using quantum superposition and the principles of quantum computing. It demonstrates the power of quantum algorithms in solving specific problems with just one query to an oracle function.
 
 The code implements the Bernstein-Vazirani algorithm by creating a quantum circuit that efficiently reveals the hidden binary string '101101'.
